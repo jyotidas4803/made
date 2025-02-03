@@ -24,6 +24,7 @@ function EmojiSelect({ onClick }) {
     <div className="flex gap-1 flex-wrap justify-center">
       {emojiOptions.map((emoji) => (
         <Button
+          key={emoji}
           className="text-2xl"
           variant="faded"
           onPress={() => onClick(emoji)}

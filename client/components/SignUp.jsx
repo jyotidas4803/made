@@ -36,8 +36,8 @@ function SignUp({ setUser, socket }) {
             width={40}
           />
           <div className="flex flex-col">
-            <p className="text-md">MADE Room</p>
-            <p className="text-small text-default-500">made.phleebs.tech</p>
+            <p className="text-md">MADE-Room</p>
+            <p className="text-small text-default-500">made-two.vercel.app</p>
           </div>
         </CardHeader>
 
@@ -65,7 +65,7 @@ function SignUp({ setUser, socket }) {
           <Link
             isExternal
             showAnchorIcon
-            href="https://github.com/gliese-sketch/made"
+            href="https://github.com/jyotidas4803/made"
           >
             Visit source code on GitHub.
           </Link>

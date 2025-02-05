@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Button, Input } from "@heroui/react";
 import { SendHorizontalIcon, UploadIcon } from "lucide-react";
 
 function Inputs() {
   const [input, setInput] = useState("");
+  const inputUpload = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     console.log(input);
+
+    inputUpload.current.click();
 
     setInput("");
   };
@@ -25,8 +28,10 @@ function Inputs() {
         onChange={(e) => setInput(e.target.value)}
         autoComplete="off"
       />
-      <input type="file" hidden name="file" />
-      <Button className="h-auto bg-blue-400">
+
+      <input type="file" name="file" ref={inputUpload} hidden />
+
+      <Button className="h-auto bg-blue-400" type="submit">
         {input ? <SendHorizontalIcon /> : <UploadIcon />}
       </Button>
     </form>

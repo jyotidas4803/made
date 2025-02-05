@@ -1,5 +1,6 @@
-export { default as Chat } from "./Chat";
-// export { default as Emoji } from "./Emoji";
-export { default as Inputs } from "./Inputs";
-export { default as Messages } from "./Messages";
-export { default as SignUp } from "./SignUp";
+import Chat from "./Chat";
+import Inputs from "./Inputs";
+import Messages from "./Messages";
+import SignUp from "./SignUp";
+
+export { Chat, Inputs, Messages, SignUp };

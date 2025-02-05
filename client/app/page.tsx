@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
 const socket = io(
-  "https://refactored-rotary-phone-5g4x69w5vxrvh4p96-8000.app.github.dev/"
+  "https://cuddly-funicular-4jqw5p9qxx5wc96j-8000.app.github.dev/"
 );
 
 export default function Home() {

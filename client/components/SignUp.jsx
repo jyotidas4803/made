@@ -86,7 +86,7 @@ function SignUp({ setUser, socket }) {
             <Link
               isExternal
               showAnchorIcon
-              href="https://github.com/gliese-sketch/made"
+              href="https://github.com/jyotidas4803/made"
             >
               Visit source code on GitHub.
             </Link>

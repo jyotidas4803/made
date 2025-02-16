@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import {
   Card,
@@ -59,7 +58,7 @@ function SignUp({ setUser, socket }) {
             />
             <div className="flex flex-col">
               <p className="text-md">MADE Room</p>
-              <p className="text-small text-default-500">made-keet.vercel.app</p>
+              <p className="text-small text-default-500">made.phleebs.tech</p>
             </div>
           </CardHeader>
 
@@ -87,7 +86,7 @@ function SignUp({ setUser, socket }) {
             <Link
               isExternal
               showAnchorIcon
-              href="https://github.com/jyotidas4803/made"
+              href="https://github.com/gliese-sketch/made"
             >
               Visit source code on GitHub.
             </Link>

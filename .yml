@@ -1,0 +1,3 @@
+project_type: flutter
+entry_point: lib/main.dart
+flutter_sdk: stable
